@@ -1,0 +1,135 @@
+/* telefony */
+@media (max-width: 469px) { 
+    .page-header h1 {
+        font-size: 32px;
+    }
+
+    article.box .text {
+        width: 100%;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+    article.box .bubbles, article.box.textright .bubbles {
+        float: none;
+        width: 100%;
+    }
+
+    article.box .image, article.box.textright .image {
+        float: none;
+        width: 100%;
+        margin-bottom: 7px;
+    }
+    
+    .badge, .textright .badge {
+        float: none !important;
+        display: inline-block;
+    }
+    
+    article.box .text, article.box.textright .text {
+        float: none;
+        width: 100%;
+        margin-bottom: 7px;
+        text-align: center;
+    }
+    
+    article.box .text:after {
+        clear: both;
+        display: block;
+        content: "";
+    }
+
+    article.box h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    article.box .text p {
+        font-size: 14px;
+    }
+
+    .page-footer .qr-box {
+        display: none;
+    }
+
+    article.box.trademark {
+        text-align: center;
+        padding: 10px 15px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .page-footer .qr-box {
+        float: none;
+        padding-top: 10px;
+    }
+
+    .page-footer .trademark-link {
+        float: right;
+        margin-right: 0;
+    }
+
+
+    .badge {
+        float: right;
+    }
+}
+
+@media (min-width: 470px) and (max-width: 800px) {
+    .page-header h1 {
+        font-size: 46px;
+    }
+
+    article.box .text {
+        width: 100%;
+        float: left;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    article.box .bubbles {
+        width: 63%;
+    }
+
+    article.box .image {
+        width: 37%;
+    }
+
+    article.box h2 {
+        text-align: center;
+    }
+
+    .badge {
+        float: right;
+    }
+    
+    article.box {
+        padding: 9px 0 22px;
+    }
+    
+    .textright .badge {
+        display: block;
+        float: left;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 959px) {
+    .page-header h1 {
+        font-size: 46px;
+    }
+    
+    article.box .text p {
+        font-size: 14px;
+    }
+
+    article.box h2 {
+        font-size: 17px;
+        line-height: 23px;
+    }
+}
+
+/* pc */
+@media (min-width: 960px) {
+ 
+}
