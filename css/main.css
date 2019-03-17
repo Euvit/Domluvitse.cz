@@ -49,6 +49,8 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0px 5px 30px 5px #000000; 
+    box-shadow: 0px 5px 30px 5px #000000;
 }
 
 .clear {
@@ -260,7 +262,7 @@ article.box p {
 }
 
 .page-footer p .phone-number {
-    color: #6abd45;
+    /*color: #6abd45;*/
     font-weight: bold;
     display: inline-block;
 }
@@ -273,6 +275,13 @@ article.box p {
     margin-right: 20px;
     font-size: 15px;
     margin-left: 5px;
+}
+
+.link {
+    color: #3D70B7;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
 }
 
 .page-footer .qr-box {
